@@ -7,6 +7,11 @@ using System.Diagnostics;
 
 namespace SOLID
 {
+    // Classes with single responsibility are easier to design & implement
+    // Improves readability as it is a single class per functionality which is much easier to explain and understand.
+    // Improves testability as due to single functionality in a class it reduces complexity while writing unit test cases for a class.
+    // It is easier to debug errors as well i.e. if there is an error in email functionality then you know which class to look for.
+    // It also allows to reuse of the same code in other places at well i.e. if you build an email functionality class can same can be used for user registration, OTP over email, forgot passwords, etc.
     public class SingleResponsibility
     {
         public void SingleResponseInCafe()
