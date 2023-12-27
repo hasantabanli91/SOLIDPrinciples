@@ -12,6 +12,6 @@ Console.WriteLine("        > Its means each software module or a class should ha
 SingleResponsibility singleResponsibility = new SingleResponsibility();
 singleResponsibility.SingleResponseInCafe();
 
-//Console.WriteLine("");
-//Console.WriteLine("    2 - Open / Closed Principle");
-//Console.WriteLine("        > Its means a software class or module should be open for extension but closed for modification");
+Console.WriteLine("");
+Console.WriteLine("    2 - Open / Closed Principle");
+Console.WriteLine("        > Its means a software class or module should be open for extension but closed for modification");
